@@ -1,5 +1,6 @@
 # ECSE316-Assignment1: Network Programming and DNS
 By: Joey Koay and Mihail Calitoiu
+Date: January 30 2023
 
 Language: We are using Python 3 to write and test our program 
 
