@@ -1,5 +1,5 @@
-# ECSE316-Assignment1
-Assignment 1: Network Programming and DNS
+# ECSE316-Assignment1: Network Programming and DNS
+By: Joey Koay and Mihail Calitoiu
 
 Language: We are using Python 3 to write and test our program 
 
