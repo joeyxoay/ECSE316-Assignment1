@@ -46,7 +46,7 @@ def main(args):
     print("Server: " + xip)
     print("Request type: " + xRecordT)
 
-    #build packet
+    #build packet by creating a byte sequence
     parts = xname.split(".")
     npacket = b""  #create an empty byte object
     randomn = random.getrandbits(16)  #generate 16 bit random number
@@ -80,7 +80,7 @@ def main(args):
     #class, set 1 as per PDF
     npacket += (0x0001).to_bytes(2, byteorder="big")
 
-    #build socket
+    #build UDP socket
     socket = soct.socket(soct.AF_INET, soct.SOCK_DGRAM)
     socket.settimeout(xtimeout)
     socket.setsockopt(soct.SOL_SOCKET, soct.SO_REUSEADDR, 1)
